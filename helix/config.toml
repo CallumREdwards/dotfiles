@@ -1,0 +1,6 @@
+# Use ':theme xxx' to explore new themes!
+theme = "nightfox"
+
+[editor]
+# Was needed for using themes
+true-color = true
