@@ -4,3 +4,6 @@ theme = "nightfox"
 [editor]
 # Was needed for using themes
 true-color = true
+
+[editor.soft-wrap]
+enable = true

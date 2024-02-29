@@ -1,0 +1,10 @@
+layout {
+  cwd "~"
+  tab name="main"
+  tab name="gpt" cwd="notes" {
+    pane {
+      command "op --repl"
+    }
+  }
+  tab name="code" cwd="c"
+}
