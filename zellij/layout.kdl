@@ -1,10 +1,17 @@
 layout {
   cwd "~"
-  tab name="main"
-  tab name="gpt" cwd="notes" {
-    pane {
-      command "op --repl"
+  pane {
+    tab name="main"
+    tab name="gpt" cwd="notes" {
+      pane {
+        command "sgpt"
+        args "--repl temp"
+      }
     }
+    tab name="code" cwd="c"
   }
-  tab name="code" cwd="c"
+  
+  pane size=1 borderless=true {
+    plugin location="zellij:compact-bar"
+  }
 }
