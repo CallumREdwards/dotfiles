@@ -2,6 +2,9 @@
 set -g fish_greeting # Set Fish greeting to empty
 source ~/.config/fish/secret_env_vars.fish  # hides secret keys in config
 set -gx COLORTERM truecolor  # For helix editor
+set -gx EDITOR nvim
+set -g theme_nerd_fonts yes
+set -g theme_powerline_fonts yes
 
 
 ### CUDA ###
@@ -9,14 +12,25 @@ export LD_LIBRARY_PATH='/usr/local/cuda/lib64:/usr/local/cuda/include:/usr/local
 
 
 ### Aliases ###
-alias g 'git'
-alias clip 'xclip -selection clipboard'
 alias cat 'bat'
-alias op0 'op --chat=0'
-alias op1 'op --chat=1'
-alias op2 'op --chat=2'
-alias op3 'op --chat=3'
-alias op4 'op --chat=4'
+alias clip 'xclip -selection clipboard'
+
+
+### Abbreviation ###
+abbr g 'git'
+abbr gs 'git status'
+abbr ga 'git add'
+abbr gd 'git diff -w'
+abbr gds 'git diff -w --staged'
+abbr gb 'git branch'
+abbr gp 'git push origin'
+abbr gc 'git commit \''
+
+abbr op 'sgpt --chat=0\''
+abbr op1 'sgpt --chat=1\''
+abbr op2 'sgpt --chat=2\''
+abbr op3 'sgpt --chat=3\''
+abbr op4 'sgpt --chat=4\''
 
 
 ### Auto start zellij ###
@@ -30,6 +44,7 @@ end
 ### Packages ###
 zoxide init fish | source
 #starship init fish | source
-#
-
 thefuck --alias | source
+
+set -g fish_user_paths "/home/linuxbrew/.linuxbrew/bin" $fish_user_paths
+
