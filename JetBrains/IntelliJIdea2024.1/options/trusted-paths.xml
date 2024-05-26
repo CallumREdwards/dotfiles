@@ -1,0 +1,11 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/untitled" value="true" />
+        <entry key="$USER_HOME$/code" value="true" />
+        <entry key="$USER_HOME$/code/klox" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,181 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="7" l="1714232977746" />
+    </e>
+    <e n="$Redo">
+      <i c="11" l="1714235086934" />
+    </e>
+    <e n="$Undo">
+      <i c="225" l="1714235658136" />
+    </e>
+    <e n="AIAssistant.CodeGeneration.Actions.AcceptAllChanges">
+      <i c="2" l="1714216767655" />
+    </e>
+    <e n="AIAssistant.Editor.GenerateCodeInplace">
+      <i c="2" l="1714216647472" />
+    </e>
+    <e n="Annotate">
+      <i c="16" l="1714235126306" />
+    </e>
+    <e n="CommentByBlockComment">
+      <i c="1" l="1714216661818" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="6" l="1714235668335" />
+    </e>
+    <e n="DebugClass">
+      <i c="1" l="1714235500967" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1861" l="1714236153786" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="59" l="1714236155041" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="63" l="1714234989550" />
+    </e>
+    <e n="EditorContextInfo">
+      <i c="1" l="1714209126949" />
+    </e>
+    <e n="EditorCopy">
+      <i c="75" l="1714236006788" />
+    </e>
+    <e n="EditorDelete">
+      <i c="43" l="1714235177327" />
+    </e>
+    <e n="EditorDown">
+      <i c="160" l="1714235426241" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="9" l="1714228652842" />
+    </e>
+    <e n="EditorEnter">
+      <i c="319" l="1714235941579" />
+    </e>
+    <e n="EditorIndentSelection">
+      <i c="7" l="1714234608150" />
+    </e>
+    <e n="EditorLeft">
+      <i c="655" l="1714236152803" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="1" l="1714216080988" />
+    </e>
+    <e n="EditorPaste">
+      <i c="153" l="1714236008240" />
+    </e>
+    <e n="EditorRight">
+      <i c="697" l="1714236155935" />
+    </e>
+    <e n="EditorSelectWord">
+      <i c="315" l="1714236206187" />
+    </e>
+    <e n="EditorSplitLine">
+      <i c="8" l="1714213906503" />
+    </e>
+    <e n="EditorTab">
+      <i c="34" l="1714235069556" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="28" l="1714234876304" />
+    </e>
+    <e n="EditorUp">
+      <i c="44" l="1714235425555" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="12" l="1714236200625" />
+    </e>
+    <e n="HippieCompletion">
+      <i c="8" l="1714218049086" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="3" l="1714236017985" />
+    </e>
+    <e n="Kotlin.NewFile">
+      <i c="9" l="1714228113487" />
+    </e>
+    <e n="KotlinConsoleREPL">
+      <i c="1" d="1" l="1714213788406" k="1714213788406" />
+    </e>
+    <e n="NewDir">
+      <i c="4" l="1714220109825" />
+    </e>
+    <e n="NewProject">
+      <i c="2" l="1714166876886" />
+    </e>
+    <e n="OpenFile">
+      <i c="2" l="1714216324833" />
+    </e>
+    <e n="Rerun">
+      <i c="5" l="1714235937721" />
+    </e>
+    <e n="Resume">
+      <i c="8" l="1714236193014" />
+    </e>
+    <e n="Run">
+      <i c="3" l="1714235340453" />
+    </e>
+    <e n="RunAnything">
+      <i c="3" l="1714220123102" />
+    </e>
+    <e n="SaveAll">
+      <i c="2" l="1714216337746" />
+    </e>
+    <e n="StepOut">
+      <i c="14" l="1714235966597" />
+    </e>
+    <e n="Stop">
+      <i c="2" l="1714235434380" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="4" l="1714236176263" />
+    </e>
+    <e n="XDebugger.MuteBreakpoints">
+      <i c="2" l="1714235934491" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="1" l="1714216942598" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="3" l="1714235209372" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createRunConfigurationWithInlines$result$1">
+      <i c="1" l="1714217322841" />
+    </e>
+    <e n="com.intellij.ml.llm.intentions.editor.IntentionWrapperAction">
+      <i c="5" l="1714217770403" />
+    </e>
+    <e n="com.intellij.openapi.externalSystem.service.execution.ExternalSystemRunConfiguration$MyTaskRerunAction">
+      <i c="3" l="1714217370176" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="10" l="1714232978076" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="4" l="1714166862165" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1714236177280" />
+    </e>
+    <e n="copilot.chat.show">
+      <i c="1" l="1714218012827" />
+    </e>
+    <e n="copilot.disableCopilot">
+      <i c="2" l="1714217983897" />
+    </e>
+    <e n="copilot.enableCopilot">
+      <i c="2" l="1714217986407" />
+    </e>
+    <e n="copilot.keymap">
+      <i c="1" l="1714218029137" />
+    </e>
+    <e n="copilot.loginGitHub">
+      <i c="1" d="1" l="1714216351522" k="1714216351522" />
+    </e>
+    <e n="copilot.welcome">
+      <i c="1" l="1714217895709" />
+    </e>
+  </component>
+</application>

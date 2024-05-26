@@ -12,7 +12,6 @@ export LD_LIBRARY_PATH='/usr/local/cuda/lib64:/usr/local/cuda/include:/usr/local
 
 
 ### Aliases ###
-alias cat 'bat'
 alias clip 'xclip -selection clipboard'
 
 
@@ -24,13 +23,18 @@ abbr gd 'git diff -w'
 abbr gds 'git diff -w --staged'
 abbr gb 'git branch'
 abbr gp 'git push origin'
-abbr gc 'git commit \''
+abbr gc 'git commit -m \''
 
-abbr op 'sgpt --chat=0\''
-abbr op1 'sgpt --chat=1\''
-abbr op2 'sgpt --chat=2\''
-abbr op3 'sgpt --chat=3\''
-abbr op4 'sgpt --chat=4\''
+abbr op 'sgpt --chat=0 \''
+abbr op1 'sgpt --chat=1 \''
+abbr op2 'sgpt --chat=2 \''
+abbr op3 'sgpt --chat=3 \''
+abbr op4 'sgpt --chat=4 \''
+
+abbr cd 'z'
+abbr n 'nvim'
+abbr grep 'rg'
+abbr cat 'bat'
 
 
 ### Auto start zellij ###
@@ -48,3 +52,5 @@ thefuck --alias | source
 
 set -g fish_user_paths "/home/linuxbrew/.linuxbrew/bin" $fish_user_paths
 
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/callume/.ghcup/bin # ghcup-env

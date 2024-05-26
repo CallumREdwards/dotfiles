@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/code">
+          <value>
+            <RecentProjectMetaInfo frameTitle="code" projectWorkspaceId="2feg9NdycS7xs4pPrtHgaXo2qvA">
+              <option name="activationTimestamp" value="1714216291401" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-241.15989.69" />
+              <option name="buildTimestamp" value="1713417300000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="153" y="33" width="1400" height="1000" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1714216292152" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/klox">
+          <value>
+            <RecentProjectMetaInfo frameTitle="klox" opened="true" projectWorkspaceId="2fegMteGRjWs32K9rCaU0Flas1D">
+              <option name="activationTimestamp" value="1714300596933" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-241.15989.69" />
+              <option name="buildTimestamp" value="1713417300000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="-7" y="-7" width="1721" height="1081" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1714216329577" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/code/klox" />
+    <option name="lastProjectLocation" value="$USER_HOME$/code" />
+  </component>
+</application>

@@ -1,0 +1,19 @@
+:quit
+:quit
+exit
+cabl repl
+map (>1) [1,2,3]
+:}
+    x : xs -> f x : map f xs
+    [] -> []
+  case list of 
+map f list = 
+:{
+double 2
+double x = x + x
+1+1 
+:quit
+exit 1
+exit
+exit()
+exit
